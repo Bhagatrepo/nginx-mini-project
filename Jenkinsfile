@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/bhagat1221/nginx-mini-project.git'
+                git 'https://github.com/Bhagatrepo/nginx-mini-project.git'
             }
         }
 
