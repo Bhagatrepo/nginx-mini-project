@@ -10,8 +10,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 git 'https://github.com/Bhagatrepo/nginx-mini-project.git'
-                branch: 'main',
-                credentialsId: 'f9a82818-1d89-4a34-9e79-7f299e60dde2'
+               
             }
         }
 
