@@ -2,14 +2,14 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'bhagat1221/nginx-mini-project'
+        DOCKER_IMAGE = 'Bhagatrepo/nginx-mini-project'
         DOCKER_CREDENTIALS_ID = 'docker-hub-creds'  // the ID you added in Jenkins credentials
     }
 
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/bhagat1221/nginx-mini-project.git'
+                git 'https://github.com/Bhagatrepo/nginx-mini-project.git'
             }
         }
 
